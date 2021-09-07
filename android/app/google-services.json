@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136538671530",
+    "project_id": "kinoverse-5d5eb",
+    "storage_bucket": "kinoverse-5d5eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136538671530:android:7256dc84c0f8ccd87083d3",
+        "android_client_info": {
+          "package_name": "com.jaden.kinoverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136538671530-d1bsfm1spehedkchpfed6bpt1qcdkogv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU3aMg0olpcnCogba543Pz9wMLIT7-U-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136538671530-d1bsfm1spehedkchpfed6bpt1qcdkogv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
