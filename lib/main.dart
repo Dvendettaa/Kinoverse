@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:kinoverse/Screens/IntroductionScreen.dart';
+import 'package:kinoverse/Screens/RecordScreen.dart';
 
-import 'Screens/LoadingScreen.dart';
-import 'Screens/NoNetwork.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,12 +14,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'KinoVerse',
+        title: 'Test App',
         theme: ThemeData(
           textTheme: TextTheme(
             bodyText1: TextStyle(),
@@ -35,9 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: '/',
         routes: {
-          '/': (context) => LoadingScreen(),
-          NoNetworkScreen.id: (context) => NoNetworkScreen(),
-          IntroductionScreen.id: (context) => IntroductionScreen(),
+          '/': (context) => RecordScreen(),
         }
     );
   }
